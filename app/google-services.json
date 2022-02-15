@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1087538677338",
+    "project_id": "newsroom-38853",
+    "storage_bucket": "newsroom-38853.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087538677338:android:babe5925621524c0807a63",
+        "android_client_info": {
+          "package_name": "com.example.newsroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087538677338-cuk7fuc9ss9p5a15cmqmn6ufmuj4fi4f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzcOJsWUN0hxvqZD-BBXXRwtam8Hks6Yg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087538677338-cuk7fuc9ss9p5a15cmqmn6ufmuj4fi4f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

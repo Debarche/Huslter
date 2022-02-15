@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeActivity"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#0d6e6a">
+
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    tools:ignore="UselessParent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/the_newsroom"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:text="@string/browser_through_the_news"
+        android:textStyle="bold"
+        android:textColor="#272727"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textSize="10sp"
+        tools:ignore="SmallSp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/politics"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffbd2e"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/c1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/politics"
+                    android:textSize="30sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    tools:ignore="RelativeOverlap" />
+
+                <TextView
+                    android:id="@+id/p1"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/c1"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="3dp"
+android:text="Get the latest headline news and analysis straight out of South Africa's capital"                    android:textColor="@color/black" />
+                <ImageView
+                    android:id="@+id/i1"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/politicsicon"
+                    android:layout_alignParentEnd="true"
+                    android:contentDescription="@string/todo"
+                    tools:ignore="ContentDescription" />
+
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/sport"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/holo_orange_dark"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/c2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/sports"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    tools:ignore="RelativeOverlap" />
+
+                <TextView
+                    android:id="@+id/p2"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/c2"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="3dp"
+android:text="Find breaking news, features and analysis on the NFL, NBA, MLB, golf, tennis, soccer, NCAA, NHL, World Series, Super Bowl, Olympics, World Cup and more"                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/i2"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentEnd="true"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/sportsicon"
+                    android:contentDescription="@string/todo"
+                    tools:ignore="ContentDescription" />
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/health"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/darker_gray"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/c3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/health"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    tools:ignore="RelativeOverlap" />
+
+                <TextView
+                    android:id="@+id/p3"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/c3"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="3dp"
+                    android:text="Be healthy. Stay informed. Making better health easier is what we're all about."
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/i3"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentEnd="true"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/healthicon"
+                    android:contentDescription="@string/todo"
+                    tools:ignore="ContentDescription" />
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/technology"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/holo_red_dark"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/c4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/technology"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    tools:ignore="RelativeOverlap" />
+
+                <TextView
+                    android:id="@+id/p4"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/c4"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="3dp"
+                    android:text="Read the latest technology news and interesting research"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/i4"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentEnd="true"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/technologyicon"
+                    android:contentDescription="@string/todo"
+                    tools:ignore="ContentDescription" />
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/btnLogOut"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button"
+            android:text="@string/log_out"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

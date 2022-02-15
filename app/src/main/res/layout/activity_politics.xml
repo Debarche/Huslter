@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#ffbd2e">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/politics_news"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get the latest headline news and analysis straight out of South Africa's capital"                    android:textColor="@color/black" />
+            android:layout_marginTop="3dp"
+            android:textColor="@color/black"
+            />
+
+
+    </LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:background="@drawable/edittext"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:id="@+id/PoliticsArticleTitle1"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:hint="Title"
+            android:inputType="text"
+            android:paddingStart="20dp"
+            android:text="Inventor Letter to Senator Patrick Leahy"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/PoliticsArticleContent1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:ems="10"
+            android:hint="Content"
+            android:inputType="textMultiLine"
+            android:text="Over 100 small inventors have sent a letter to Senator Patrick Leahy over changes to the patent system, specifically the America Invents" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:background="@drawable/edittext"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <TextView
+            android:id="@+id/PoliticsArticleTitle2"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:hint="Title"
+            android:inputType="text"
+            android:text="CBO: Budget Review- Summary for Fiscal Year 2021"
+            android:paddingStart="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/PoliticsArticleContent2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Content"
+            android:text="The Congressional Budget Office has released their latest update for the federal government's budget review for FY2021."
+            android:layout_marginTop="50dp"
+            android:inputType="textMultiLine" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:background="@drawable/edittext"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <TextView
+            android:id="@+id/PoliticsArticleTitle3"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:hint="Title"
+            android:text="AFP: True Cost of CON Laws"
+            android:inputType="text"
+            android:paddingStart="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/PoliticsArticleContent3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Content"
+            android:text="Americans for Prosperity has released an analysis looking at Certificate of Need Laws and their impact on healthcare"
+            android:layout_marginTop="50dp"
+            android:inputType="textMultiLine" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:background="@drawable/edittext"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <TextView
+            android:id="@+id/PoliticsArticleTitle4"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:hint="Title"
+            android:text="Heritage: “Build Back Better” Tax-and-Spend Scheme Risks Higher Inflation"
+            android:inputType="text"
+            android:paddingStart="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/PoliticsArticleContent4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:text="The Heritage Foundation posted a new piece by Preston Brashers, senior tax policy fellow on the Build Back Better bill currently being..."
+            android:hint="Content"
+            android:layout_marginTop="50dp"
+            android:inputType="textMultiLine" />
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/button"
+        android:text="@string/log_out"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+        android:text="back"
+        android:textColor="@color/black"
+        android:textSize="12sp"/>
+
+</LinearLayout>

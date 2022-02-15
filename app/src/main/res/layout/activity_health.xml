@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="@android:color/darker_gray"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/health_news"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Be healthy. Stay informed. Making better health easier is what we're all about."
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/black"
+            />
+
+
+
+
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:background="@drawable/edittext"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <TextView
+            android:id="@+id/PoliticsArticleTitle1"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:hint="Title"
+            android:inputType="text"
+            android:text="How Daily Exercise Can Help Lower Your Risk of Alzheimer’s and Cancer"
+            android:paddingStart="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/PoliticsArticleContent1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Content"
+            android:text="Researchers say regular physical activity can lower your risk of Alzheimer’s disease and cancer while boosting your physical and mental health."
+            android:layout_marginTop="50dp"
+            android:inputType="textMultiLine" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:background="@drawable/edittext"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <TextView
+            android:id="@+id/PoliticsArticleTitle2"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:hint="Title"
+            android:inputType="text"
+            android:text="Coping with Seasonal Affective Disorder During Another Pandemic Winter"
+            android:paddingStart="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/PoliticsArticleContent2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Content"
+            android:text="s we approach another pandemic winter, seasonal affective disorder is once again being compounded by COVID-19 anxiety for many Americans."
+            android:layout_marginTop="50dp"
+            android:inputType="textMultiLine" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:background="@drawable/edittext"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <TextView
+            android:id="@+id/PoliticsArticleTitle3"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:hint="Title"
+            android:inputType="text"
+            android:text="Here’s Where COVID-19 Cases Are Rising and Falling"
+            android:paddingStart="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/PoliticsArticleContent3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Content"
+            android:text="New COVID-19 cases are increasing in states where the weather is colder, causing some experts to worry that the winter months could bring a new surge."
+            android:layout_marginTop="50dp"
+            android:inputType="textMultiLine" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:background="@drawable/edittext"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <TextView
+            android:id="@+id/PoliticsArticleTitle4"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:hint="Title"
+            android:inputType="text"
+            android:text="COVID-19 Updates: Crackdown in Germany and Outbreak in South Korea"
+            android:paddingStart="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/PoliticsArticleContent4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Content"
+            android:text="Getting a COVID-19 booster shot may become necessary to being considered fully vaccinated."
+            android:layout_marginTop="50dp"
+            android:inputType="textMultiLine" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/button"
+        android:text="@string/log_out"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="160dp"
+        android:text="back"
+        android:textColor="@color/black"
+        android:textSize="12sp"/>
+
+</LinearLayout>

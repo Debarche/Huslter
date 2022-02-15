@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="@android:color/holo_red_dark">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/technology_news"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Read the latest technology news and interesting research"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/black"
+            />
+
+
+
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:background="@drawable/edittext"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <TextView
+            android:id="@+id/PoliticsArticleTitle1"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:hint="Title"
+            android:inputType="text"
+            android:text="Theoretical Breakthrough at MIT Could Boost Data Storage"
+            android:paddingStart="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/PoliticsArticleContent1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Content"
+            android:text="New work on linear-probing hash tables from MIT CSAIL could lead to more efficient data storage and retrieval in computers. A trio of researchers that…"
+            android:layout_marginTop="50dp"
+            android:inputType="textMultiLine" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:background="@drawable/edittext"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <TextView
+            android:id="@+id/PoliticsArticleTitle2"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:hint="Title"
+            android:inputType="text"
+            android:text="Exotic New Material Could Be Two Superconductors in One – With Serious Quantum Computing Applications"
+            android:paddingStart="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/PoliticsArticleContent2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Content"
+            android:text="Work has potential applications in quantum computing, and introduces new way to plumb the secrets of superconductivity. MIT physicists and colleagues have demonstrated an exotic…"
+            android:layout_marginTop="50dp"
+            android:inputType="textMultiLine" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:background="@drawable/edittext"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <TextView
+            android:id="@+id/PoliticsArticleTitle3"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:hint="Title"
+            android:inputType="text"
+            android:text="Electrically Switchable Nanoantennas Developed for Holographic Video Technology"
+            android:paddingStart="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/PoliticsArticleContent3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Content"
+            android:text="Real-Life Feeling at Online Video Conferences Video conferencing played a key role during the Covid-19 pandemic and is set to dominate many meetings in the…"
+            android:layout_marginTop="50dp"
+            android:inputType="textMultiLine" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:background="@drawable/edittext"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <TextView
+            android:id="@+id/PoliticsArticleTitle4"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:hint="Title"
+            android:inputType="text"
+            android:text="Magnetene – A Graphene-Like 2D Material – Leverages Quantum Effects To Achieve Ultra-Low Friction"
+            android:paddingStart="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/PoliticsArticleContent4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Content"
+            android:text="Magnetene could have useful applications as a lubricant in implantable devices or other micro-electro-mechanical systems. A team of researchers from University of Toronto Engineering and…"
+            android:layout_marginTop="50dp"
+            android:inputType="textMultiLine" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/button"
+        android:text="@string/log_out"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="160dp"
+        android:text="back"
+        android:textColor="@color/black"
+        android:textSize="12sp"/>
+
+</LinearLayout>
