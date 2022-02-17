@@ -10,6 +10,7 @@ public class UserClass {
         this.email= email;
         this.password = password;
 
+        
 
     }
 }
